@@ -1,0 +1,7 @@
+# This file identifies the workspace as a Flutter application.
+# Flutter updates SDK-specific fields the first time `flutter pub get` runs.
+version:
+  revision: unknown
+  channel: stable
+project_type: app
+
