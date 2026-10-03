@@ -83,3 +83,60 @@ AUTOPARTES
 ├── 📄 pubspec.lock
 ├── 📄 pubspec.yaml
 └── 📄 README.md
+Frontend
+
+El frontend está desarrollado con:
+
+Flutter + Dart
+
+Los principales archivos son:
+lib/main.dart
+web/index.html
+assets/images/
+pubspec.yaml
+Flutter se utiliza para construir la interfaz visual y la interacción del usuario.
+
+Incluye módulos/prototipos como:
+
+Inicio de sesión
+Dashboard
+Inventario
+Proveedores
+Compras
+Atención al cliente
+Campañas
+Chatbot
+Carrito de compras
+
+backend
+
+En la versión del proyecto no existe un backend tradicional separado.
+
+El proyecto utiliza principalmente:
+
+LocalStorage del navegador
+
+En main.dart aparece el uso de:
+html.window.localStorage
+Frontend: desarrollado en Flutter y Dart, con una interfaz web responsiva y componentes orientados a la interacción humano-computador.
+Persistencia de datos: mediante LocalStorage del navegador, utilizado para almacenar datos demostrativos del prototipo.
+Backend: el prototipo no implementa actualmente un backend independiente ni una base de datos remota; la persistencia se realiza localmente para efectos de demostración.
+┌─────────────────────────────────────┐
+│             USUARIO                 │
+└─────────────────┬───────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────┐
+│       FRONTEND – FLUTTER/DART       │
+│                                     │
+│  Login │ Dashboard │ Inventario     │
+│  Compras │ Proveedores │ Clientes   │
+│  Campañas │ Chatbot │ Carrito       │
+└─────────────────┬───────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────┐
+│       LOCALSTORAGE DEL NAVEGADOR    │
+│                                     │
+│       Datos demostrativos           │
+└─────────────────────────────────────┘
